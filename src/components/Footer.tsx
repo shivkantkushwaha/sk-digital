@@ -65,7 +65,7 @@ export default function Footer() {
       
       {/* Massive Background Logo effect */}
       <div className="absolute bottom-[-15%] left-1/2 -translate-x-1/2 w-full flex justify-center opacity-[0.03] pointer-events-none select-none z-0">
-        <span className="text-[15rem] md:text-[25rem] font-cursive font-bold whitespace-nowrap leading-none tracking-tighter">
+        <span className="text-[8rem] sm:text-[15rem] md:text-[25rem] font-cursive font-bold whitespace-nowrap leading-none tracking-tighter">
           SKDIGITAL
         </span>
       </div>

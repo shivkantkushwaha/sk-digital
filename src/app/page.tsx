@@ -18,7 +18,7 @@ export default function Home() {
             <span className="text-xs font-bold tracking-widest uppercase text-foreground">Web Design Agency</span>
           </div>
           
-          <h1 className="text-5xl lg:text-[3.8rem] font-semibold tracking-tight text-balance leading-[1.05] mb-5">
+          <h1 className="text-4xl sm:text-5xl lg:text-[3.8rem] font-semibold tracking-tight text-balance leading-[1.05] mb-5">
             Websites that make your business look as professional as it really is.
           </h1>
           
@@ -227,7 +227,7 @@ export default function Home() {
                 <span className="text-xs font-bold tracking-widest uppercase">About SKDigital</span>
               </div>
               
-              <h2 className="text-4xl md:text-5xl lg:text-[3.5rem] font-semibold tracking-tight leading-[1.1] mb-8">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] font-semibold tracking-tight leading-[1.1] mb-8">
                 We build modern websites without the unnecessary complexity.
               </h2>
               
