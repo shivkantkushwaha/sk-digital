@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SKDigital — Premium Web Agency Portfolio
 
-## Getting Started
+A modern, high-performance, single-page agency portfolio built for **SKDigital**. Designed with a sophisticated, monochromatic, editorial aesthetic to instantly communicate trust, credibility, and professionalism.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Package Manager:** [pnpm](https://pnpm.io/)
+- **Fonts:** Inter (Sans-serif) & Caveat (Cursive for logo)
+
+## ✨ Key Features
+
+- **Pristine Single-Page Architecture:** All sections seamlessly exist on one page with programmatic smooth-scrolling, ensuring the URL remains completely clean (no `#hashtags`).
+- **Editorial Design System:** High-contrast layouts, massive typography, and a strict monochromatic palette (near-black, white, muted grays).
+- **Interactive Contact Modal:** A globally accessible, animated modal for immediate client inquiries without leaving the current view.
+- **Fully Responsive:** Meticulously crafted grid layouts that adapt perfectly from mobile to large desktop displays.
+- **Optimized Assets:** Uses `next/image` for highly performant, lazy-loaded portfolio concepts and UI abstractions.
+
+## 🛠️ Getting Started
+
+### Prerequisites
+Make sure you have Node.js installed along with `pnpm`.
+
+### Installation
+
+1. Clone the repository and navigate to the project folder:
+   ```bash
+   cd sk-digital
+   ```
+
+2. Install the dependencies:
+   ```bash
+   pnpm install
+   ```
+
+3. Start the development server:
+   ```bash
+   pnpm dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 📂 Project Structure
+
+```text
+sk-digital/
+├── public/                 # Static assets and high-end concept images
+├── src/
+│   ├── app/
+│   │   ├── globals.css     # Global Tailwind v4 theme & button resets
+│   │   ├── layout.tsx      # Root layout, font configuration, and metadata
+│   │   └── page.tsx        # The main single-page dashboard
+│   └── components/
+│       ├── Navbar.tsx             # Sticky navigation with smooth scroll
+│       ├── Footer.tsx             # Premium dark footer with watermark logo
+│       ├── StartProjectButton.tsx # Shared interactive contact modal
+│       ├── ViewWorkButton.tsx     # Smooth scroll trigger for portfolio
+│       └── ContactSection.tsx     # Shared call-to-action block
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✉️ Contact
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**SKDigital**  
+Shivkant Kushwaha  
+Email: [agencyshivkant@gmail.com](mailto:agencyshivkant@gmail.com)  
+Phone: +91 9219772561  
+Web: [shivkantkushwaha.online](https://shivkantkushwaha.online)
